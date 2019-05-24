@@ -1,0 +1,9 @@
+C:\Users\leand\Documents\sources\flying-high\src\core\FlyingHigh.Domain\bin\Debug\netstandard2.0\FlyingHigh.Domain.deps.json
+C:\Users\leand\Documents\sources\flying-high\src\core\FlyingHigh.Domain\bin\Debug\netstandard2.0\FlyingHigh.Domain.dll
+C:\Users\leand\Documents\sources\flying-high\src\core\FlyingHigh.Domain\bin\Debug\netstandard2.0\FlyingHigh.Domain.pdb
+C:\Users\leand\Documents\sources\flying-high\src\core\FlyingHigh.Domain\obj\Debug\netstandard2.0\FlyingHigh.Domain.csprojAssemblyReference.cache
+C:\Users\leand\Documents\sources\flying-high\src\core\FlyingHigh.Domain\obj\Debug\netstandard2.0\FlyingHigh.Domain.csproj.CoreCompileInputs.cache
+C:\Users\leand\Documents\sources\flying-high\src\core\FlyingHigh.Domain\obj\Debug\netstandard2.0\FlyingHigh.Domain.AssemblyInfoInputs.cache
+C:\Users\leand\Documents\sources\flying-high\src\core\FlyingHigh.Domain\obj\Debug\netstandard2.0\FlyingHigh.Domain.AssemblyInfo.cs
+C:\Users\leand\Documents\sources\flying-high\src\core\FlyingHigh.Domain\obj\Debug\netstandard2.0\FlyingHigh.Domain.dll
+C:\Users\leand\Documents\sources\flying-high\src\core\FlyingHigh.Domain\obj\Debug\netstandard2.0\FlyingHigh.Domain.pdb

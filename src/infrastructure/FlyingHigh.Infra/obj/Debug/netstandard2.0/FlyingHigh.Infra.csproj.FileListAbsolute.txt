@@ -1,0 +1,9 @@
+C:\Users\leand\Documents\sources\flying-high\src\infrastructure\FlyingHigh.Infra\bin\Debug\netstandard2.0\FlyingHigh.Infra.deps.json
+C:\Users\leand\Documents\sources\flying-high\src\infrastructure\FlyingHigh.Infra\bin\Debug\netstandard2.0\FlyingHigh.Infra.dll
+C:\Users\leand\Documents\sources\flying-high\src\infrastructure\FlyingHigh.Infra\bin\Debug\netstandard2.0\FlyingHigh.Infra.pdb
+C:\Users\leand\Documents\sources\flying-high\src\infrastructure\FlyingHigh.Infra\obj\Debug\netstandard2.0\FlyingHigh.Infra.csprojAssemblyReference.cache
+C:\Users\leand\Documents\sources\flying-high\src\infrastructure\FlyingHigh.Infra\obj\Debug\netstandard2.0\FlyingHigh.Infra.csproj.CoreCompileInputs.cache
+C:\Users\leand\Documents\sources\flying-high\src\infrastructure\FlyingHigh.Infra\obj\Debug\netstandard2.0\FlyingHigh.Infra.AssemblyInfoInputs.cache
+C:\Users\leand\Documents\sources\flying-high\src\infrastructure\FlyingHigh.Infra\obj\Debug\netstandard2.0\FlyingHigh.Infra.AssemblyInfo.cs
+C:\Users\leand\Documents\sources\flying-high\src\infrastructure\FlyingHigh.Infra\obj\Debug\netstandard2.0\FlyingHigh.Infra.dll
+C:\Users\leand\Documents\sources\flying-high\src\infrastructure\FlyingHigh.Infra\obj\Debug\netstandard2.0\FlyingHigh.Infra.pdb

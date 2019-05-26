@@ -18,6 +18,7 @@ namespace FlyingHigh.Domain.AggregateModel.FlightAggregate
 
         public string Name { get; private set; }
         public Guid RouteId { get; private set; }
+        public Guid AirPlaneId { get; private set; }
 
         private readonly List<Passenger> _passengers;
         public IReadOnlyCollection<Passenger> Passengers => _passengers;

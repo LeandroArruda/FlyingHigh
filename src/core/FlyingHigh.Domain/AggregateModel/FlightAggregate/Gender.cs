@@ -10,7 +10,6 @@ namespace FlyingHigh.Domain.AggregateModel.FlightAggregate
 
         protected override IEnumerable<object> GetAtomicValues()
         {
-            // Using a yield return statement to return each element one at a time
             yield return Name;
             yield return Short;
         }

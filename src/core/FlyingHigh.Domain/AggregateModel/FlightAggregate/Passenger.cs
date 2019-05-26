@@ -1,9 +1,11 @@
+using FlyingHigh.Domain.Common;
+
 namespace FlyingHigh.Domain.AggregateModel.FlightAggregate
 {
-    public class Passenger
+    public class Passenger : Entity
     {
-        public string Name { get; set; }
-        public int Age { get; set; }
-        public Gender Gender { get; set; }
+        public string Name { get; private set; }
+        public int Age { get; private set; }
+        public Gender Gender { get; private set; }
     }
 }

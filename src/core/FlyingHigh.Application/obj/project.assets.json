@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "MediatR/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -25,10 +34,36 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "FlyingHigh.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MediatR": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FlyingHigh.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FlyingHigh.Domain.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "MediatR/7.0.0": {
+      "sha512": "sgfHxkBsmMlHOD564SnLqTvSbAuGlFiZfc6ybxBSI1wYV/2u+Y5TXtFoIhCISFg5/s/6aMvB338QC2JseHsjTA==",
+      "type": "package",
+      "path": "mediatr/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/MediatR.dll",
+        "lib/netstandard2.0/MediatR.dll",
+        "mediatr.7.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -171,10 +206,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "FlyingHigh.Domain/1.0.0": {
+      "type": "project",
+      "path": "../FlyingHigh.Domain/FlyingHigh.Domain.csproj",
+      "msbuildProject": "../FlyingHigh.Domain/FlyingHigh.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "FlyingHigh.Domain >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -207,7 +248,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\leand\\Documents\\sources\\flying-high\\src\\core\\FlyingHigh.Domain\\FlyingHigh.Domain.csproj": {
+              "projectPath": "C:\\Users\\leand\\Documents\\sources\\flying-high\\src\\core\\FlyingHigh.Domain\\FlyingHigh.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -10,10 +10,11 @@ namespace FlyingHigh.Domain.AggregateModel.FlightAggregate
         {
             _passengers = new List<Passenger>();
         }
-        public Flight(string name, Guid routeId)
+        public Flight(string name, Guid routeId, Guid airPlaneId)
         {
-            Name = name;
+            Name = !string.IsNullOrWhiteSpace(name) ? name : throw new ArgumentNullException(nameof(name));
             RouteId = routeId;
+            AirPlaneId = airPlaneId;
         }
 
         public string Name { get; private set; }

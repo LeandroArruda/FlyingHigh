@@ -7,3 +7,6 @@ C:\Users\leand\Documents\sources\flying-high\src\core\FlyingHigh.Application\obj
 C:\Users\leand\Documents\sources\flying-high\src\core\FlyingHigh.Application\obj\Debug\netstandard2.0\FlyingHigh.Application.AssemblyInfo.cs
 C:\Users\leand\Documents\sources\flying-high\src\core\FlyingHigh.Application\obj\Debug\netstandard2.0\FlyingHigh.Application.dll
 C:\Users\leand\Documents\sources\flying-high\src\core\FlyingHigh.Application\obj\Debug\netstandard2.0\FlyingHigh.Application.pdb
+C:\Users\leand\Documents\sources\flying-high\src\core\FlyingHigh.Application\bin\Debug\netstandard2.0\FlyingHigh.Domain.dll
+C:\Users\leand\Documents\sources\flying-high\src\core\FlyingHigh.Application\bin\Debug\netstandard2.0\FlyingHigh.Domain.pdb
+C:\Users\leand\Documents\sources\flying-high\src\core\FlyingHigh.Application\obj\Debug\netstandard2.0\FlyingHigh.Application.csproj.CopyComplete

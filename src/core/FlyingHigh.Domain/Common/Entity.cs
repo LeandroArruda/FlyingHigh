@@ -41,6 +41,20 @@ namespace FlyingHigh.Domain.Common
             else
                 return item.Id == this.Id;
         }
+
+        public override int GetHashCode()
+        {
+            if (!IsTransient())
+            {
+                if (!_requestedHashCode.HasValue)
+                    _requestedHashCode = this.Id.GetHashCode() ^ 31;
+
+                return _requestedHashCode.Value;
+            }
+            else
+                return base.GetHashCode();
+
+        }
         
         public static bool operator ==(Entity left, Entity right)
         {

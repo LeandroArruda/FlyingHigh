@@ -2617,11 +2617,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leand\\Documents\\sources\\flying-high\\src\\infrastructure\\FlyingHigh.Infra\\FlyingHigh.Infra.csproj",
+      "projectUniqueName": "c:\\Users\\leand\\Documents\\sources\\flying-high\\src\\infrastructure\\FlyingHigh.Infra\\FlyingHigh.Infra.csproj",
       "projectName": "FlyingHigh.Infra",
-      "projectPath": "C:\\Users\\leand\\Documents\\sources\\flying-high\\src\\infrastructure\\FlyingHigh.Infra\\FlyingHigh.Infra.csproj",
+      "projectPath": "c:\\Users\\leand\\Documents\\sources\\flying-high\\src\\infrastructure\\FlyingHigh.Infra\\FlyingHigh.Infra.csproj",
       "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leand\\Documents\\sources\\flying-high\\src\\infrastructure\\FlyingHigh.Infra\\obj\\",
+      "outputPath": "c:\\Users\\leand\\Documents\\sources\\flying-high\\src\\infrastructure\\FlyingHigh.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2640,8 +2640,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\leand\\Documents\\sources\\flying-high\\src\\core\\FlyingHigh.Domain\\FlyingHigh.Domain.csproj": {
-              "projectPath": "C:\\Users\\leand\\Documents\\sources\\flying-high\\src\\core\\FlyingHigh.Domain\\FlyingHigh.Domain.csproj"
+            "c:\\Users\\leand\\Documents\\sources\\flying-high\\src\\core\\FlyingHigh.Domain\\FlyingHigh.Domain.csproj": {
+              "projectPath": "c:\\Users\\leand\\Documents\\sources\\flying-high\\src\\core\\FlyingHigh.Domain\\FlyingHigh.Domain.csproj"
             }
           }
         }

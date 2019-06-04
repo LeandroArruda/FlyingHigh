@@ -24,8 +24,9 @@ namespace FlyingHigh.Domain.AggregateModel.FlightAggregate
         private readonly List<Passenger> _passengers;
         public IReadOnlyCollection<Passenger> Passengers => _passengers;
 
-        public void AddPassenger(Passenger passenger)
+        public void AddPassenger(string name, int age, Gender gender)
         {
+            var passenger = new Passenger(name, age, gender);
             _passengers.Add(passenger);
         }
     }

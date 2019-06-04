@@ -3,7 +3,7 @@ using System.Linq;
 using FlyingHigh.Domain.Common;
 using FlyingHigh.Domain.Interfaces;
 
-namespace FlyingHigh.Domain.Specifications.Route
+namespace FlyingHigh.Domain.AggregateModel.RouteAggregate.Specifications
 {
     public class IsRouteWithoutRepeatLocationSpecification : ISpecification<FlyingHigh.Domain.RouteAggregate.Route>
     {

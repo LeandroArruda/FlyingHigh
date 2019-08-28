@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using FlyingHigh.Application.Interfaces;
+using FlyingHigh.Domain.AggregateModel.RouteAggregate.Specifications;
 using FlyingHigh.Domain.RouteAggregate;
-using FlyingHigh.Domain.Specifications.Route;
 
 namespace FlyingHigh.Application.Services
 {

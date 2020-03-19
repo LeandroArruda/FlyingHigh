@@ -1,5 +1,4 @@
-﻿using System;
-using FlyingHigh.Domain.Common;
+﻿using FlyingHigh.Domain.Common;
 
 namespace FlyingHigh.Domain.AggregateModel.AirPlaneAggregate
 {

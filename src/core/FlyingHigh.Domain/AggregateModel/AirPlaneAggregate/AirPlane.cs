@@ -7,7 +7,9 @@ namespace FlyingHigh.Domain.AggregateModel.AirPlaneAggregate
     {
         public AirPlane(string name, int maxPassengers)
         {
-            Name = !string.IsNullOrWhiteSpace(name) ? name : throw new ArgumentNullException(nameof(name));
+            Name = !string.IsNullOrWhiteSpace(name) 
+                                    ? name 
+                                    : throw new ArgumentNullException(nameof(name));
             MaxPassengers = maxPassengers;
         }
         public string Name { get; private set; }
